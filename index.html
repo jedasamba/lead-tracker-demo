@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jed's Lead Tracker Demo</title>
+<style>
+    /* General body styling */
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(to bottom, #f0f4ff, #ffffff);
+        color: #333;
+    }
+
+    /* Header / Hero Section */
+    header {
+        text-align: center;
+        padding: 30px 10px;
+        background-color: #4a90e2;
+        color: white;
+    }
+
+    header img {
+        max-width: 200px;
+        height: auto;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+        margin-top: 5px;
+    }
+
+    /* Lead Cards */
+    .lead-card {
+        background-color: #fff;
+        padding: 15px 20px;
+        margin: 15px auto;
+        width: 90%;
+        max-width: 450px;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .lead-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+    }
+
+    .lead-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lead-name {
+        font-weight: bold;
+        font-size: 1.1rem;
+        margin-bottom: 3px;
+    }
+
+    .lead-email {
+        font-size: 0.9rem;
+        color: #666;
+    }
+
+    .lead-interest {
+        background-color: #4a90e2;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 15px;
+        font-size: 0.85rem;
+    }
+
+    /* Footer */
+    footer {
+        text-align: center;
+        padding: 15px;
+        background-color: #f2f4f8;
+        font-size: 0.9rem;
+        color: #555;
+        margin-top: 20px;
+    }
+</style>
+</head>
+<body>
+
+<!-- Header / Hero with Canva Image -->
+<header>
+    <img src="images/canva-ad.jpg" alt="Digital Marketing Image">
+    <h1>Jed's Lead Tracker Demo</h1>
+    <p>Mini Dashboard to track leads with style 🚀</p>
+</header>
+
+<!-- Lead Cards -->
+<div class="lead-card">
+    <div class="lead-info">
+        <span class="lead-name">Alice Johnson</span>
+        <span class="lead-email">alice@example.com</span>
+    </div>
+    <span class="lead-interest">High</span>
+</div>
+
+<div class="lead-card">
+    <div class="lead-info">
+        <span class="lead-name">Bob Smith</span>
+        <span class="lead-email">bob@example.com</span>
+    </div>
+    <span class="lead-interest">Medium</span>
+</div>
+
+<div class="lead-card">
+    <div class="lead-info">
+        <span class="lead-name">Catherine Lee</span>
+        <span class="lead-email">catherine@example.com</span>
+    </div>
+    <span class="lead-interest">Low</span>
+</div>
+
+<!-- Footer -->
+<footer>
+    Made by Jed Sema Asamba • Personal Demo Project • 2026
+</footer>
+
+</body>
+</html>

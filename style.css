@@ -1,0 +1,85 @@
+/* ===== Body & General Styling ===== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 20px;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* ===== Headings ===== */
+h1, h2 {
+    text-align: center;
+    color: #1a73e8;
+}
+
+/* ===== Table Styling ===== */
+table {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    background-color: #fff;
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #1a73e8;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* ===== Image Styling ===== */
+img {
+    max-width: 400px;       /* Limits width */
+    height: auto;           /* Maintains aspect ratio */
+    display: block;         /* Centers the image */
+    margin: 10px auto;      /* Vertical spacing + center */
+    border-radius: 8px;     /* Rounded corners */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+/* ===== Optional Different Image Sizes ===== */
+.ad-image {
+    max-width: 400px;
+}
+
+.cert-image {
+    max-width: 300px;
+}
+
+/* ===== Buttons ===== */
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #1a73e8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #155ab6;
+}
+
+/* ===== Links Styling ===== */
+a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
