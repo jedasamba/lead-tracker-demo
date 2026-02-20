@@ -16,7 +16,11 @@ A simple demo project showcasing a basic **lead tracking interface**. Built with
 
 ![Screenshot](canva-ad.jpg)  
 
-## Usage
+## Certifications & Training
+
+- **Fundamentals of Digital Marketing** – Completed via IBM SkillsBuild / YouTube Playlist
+
+![Course Certificate](images/course-cert.jpg)
 
 1. Clone the repository:  
 ```bash
