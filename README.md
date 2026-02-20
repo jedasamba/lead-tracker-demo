@@ -1,6 +1,6 @@
 # Lead Tracker Demo
 
-![Canva Ad](canva-ad.jpg)
+![Canva Ad](images/canva-ad.jpg)
 
 A simple demo project showcasing a basic **lead tracking interface**. Built with HTML, CSS, and JavaScript, this project demonstrates how to track leads with a small table and populate it with dummy data.  
 
